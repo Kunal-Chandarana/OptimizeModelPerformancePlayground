@@ -1,0 +1,31 @@
+# Core ML Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# PyTorch (CPU version for compatibility)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optimization Libraries
+optuna>=3.3.0
+
+# Data Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Visualization
+plotly>=5.15.0
+
+# Jupyter and Development
+jupyter>=1.0.0
+tqdm>=4.65.0
+
+# Utilities
+pyyaml>=6.0
+click>=8.1.0
+rich>=13.4.0
+psutil>=5.9.0
+memory-profiler>=0.61.0

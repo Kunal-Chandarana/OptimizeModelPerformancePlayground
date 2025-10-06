@@ -2,6 +2,10 @@
 
 A comprehensive learning environment for exploring various techniques to optimize machine learning model performance across the entire ML pipeline.
 
+## 🎯 **Perfect for ML Infrastructure Engineers!**
+
+This playground has been specifically enhanced with ML Infrastructure Engineer focus, covering production deployment, scalability, monitoring, and cost optimization.
+
 ## 🎯 What You'll Learn
 
 This playground covers the complete spectrum of ML optimization techniques:
@@ -34,7 +38,35 @@ This playground covers the complete spectrum of ML optimization techniques:
 - TensorRT optimization
 - Model serving optimization
 
-### 5. **Benchmarking & Profiling** (`/benchmarking/`)
+### 5. **Production Optimization** (`/production_optimization/`)
+- Model serving strategies (REST, gRPC, streaming)
+- Load balancing and auto-scaling
+- Resource utilization optimization
+- Latency vs throughput trade-offs
+- Batch vs real-time inference
+
+### 6. **Monitoring & Observability** (`/monitoring/`)
+- Model performance monitoring
+- Data drift detection
+- Resource utilization tracking
+- Alerting and incident response
+- SLA monitoring and compliance
+
+### 7. **Deployment & A/B Testing** (`/deployment/`)
+- A/B testing infrastructure
+- Traffic splitting and routing
+- Statistical significance testing
+- Risk management and rollback
+- Experiment analysis
+
+### 8. **Infrastructure & Cost Optimization** (`/infrastructure/`)
+- Resource cost analysis
+- Auto-scaling strategies
+- Spot instances and reserved capacity
+- Cost monitoring and budgeting
+- Infrastructure automation
+
+### 9. **Benchmarking & Profiling** (`/benchmarking/`)
 - Performance profiling tools
 - Memory usage analysis
 - Speed vs accuracy trade-offs
@@ -43,20 +75,40 @@ This playground covers the complete spectrum of ML optimization techniques:
 
 ## 🚀 Getting Started
 
-1. **Install Dependencies**
+### Quick Start (Recommended)
+```bash
+# Run the interactive setup script
+python setup_and_run.py
+```
+
+### Manual Setup
+1. **Create Virtual Environment** (Recommended)
    ```bash
-   pip install -r requirements.txt
+   python3 -m venv ml_optimization_env
+   source ml_optimization_env/bin/activate  # On macOS/Linux
+   # or
+   ml_optimization_env\Scripts\activate     # On Windows
    ```
 
-2. **Explore by Category**
-   - Start with any directory that interests you
-   - Each example includes detailed explanations
-   - Run the Jupyter notebooks for interactive learning
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements_simple.txt
+   ```
 
-3. **Benchmark Your Models**
-   - Use the benchmarking tools to measure improvements
-   - Compare different optimization techniques
-   - Track performance metrics over time
+3. **Run Simple Demo**
+   ```bash
+   python examples/simple_demo.py
+   ```
+
+### Explore by Category
+- Start with any directory that interests you
+- Each example includes detailed explanations
+- Run the demos for interactive learning
+
+### Benchmark Your Models
+- Use the benchmarking tools to measure improvements
+- Compare different optimization techniques
+- Track performance metrics over time
 
 ## 📊 Example Projects
 
